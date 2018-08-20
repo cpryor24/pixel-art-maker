@@ -1,0 +1,131 @@
+body {
+  background-color: grey;
+}
+
+#canvas-container {
+  width: 41vw;
+  border: 20px solid lightgrey;
+  border-radius: 8px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.canvas,
+#palette-primary,
+#palette-secondary {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.sub-canvas {
+  height: 8px;
+  width: 8px;
+  border: 1px solid lightgrey;
+}
+
+#palette-primary {
+  background-color: lightgrey;
+}
+
+.sub-palette{
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+#FireBrick {
+  background-color: FireBrick;
+}
+
+#DarkMagenta {
+  background-color: DarkMagenta;
+}
+
+#DarkSeaGreen {
+  background-color: DarkSeaGreen;
+}
+
+#DarkSlateBlue {
+  background-color: DarkSlateBlue;
+}
+
+#DarkGreen {
+  background-color: DarkGreen;
+}
+
+#MediumBlue {
+  background-color: MediumBlue;
+}
+
+#GhostWhite {
+  background-color: GhostWhite;
+}
+
+#HotPink {
+  background-color: HotPink;
+}
+
+#Black {
+  background-color: Black;
+}
+
+#Gold {
+  background-color: Gold;
+}
+
+#DarkOrange {
+  background-color: DarkOrange;
+}
+
+#SaddleBrown {
+  background-color: SaddleBrown;
+}
+
+#Lime {
+  background-color: Lime;
+}
+
+#SlateGray {
+  background-color: SlateGray;
+}
+
+#Tan {
+  background-color: Tan;
+}
+
+#Navy {
+  background-color: Navy;
+}
+
+#Teal {
+  background-color: Teal;
+}
+
+#Aqua {
+  background-color: Aqua;
+}
+
+#LightSeaGreen {
+  background-color: LightSeaGreen;
+}
+
+#Red {
+  background-color: Red;
+}
+
+.current{
+  width: 145px;
+  margin-top: 10px;
+  color: grey;
+}
+
+.current:nth-child(2) {
+  background-color: Red;
+  margin-right: 20px;
+  margin-top: 15px;
+  border-radius: 2px;
+  height: 10px;
+  width: 10px;
+}
